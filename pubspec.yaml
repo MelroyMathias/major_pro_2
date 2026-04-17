@@ -1,0 +1,34 @@
+name: weapon_detection_system
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+  geolocator: ^14.0.2
+  vibration: ^3.1.8
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+# ✅ IMPORTANT: correct indentation (2 spaces only)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/logo_of_pro.png"
